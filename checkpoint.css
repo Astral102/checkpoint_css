@@ -1,0 +1,117 @@
+body{
+    background-color: #111423;
+    margin: 0px;
+}
+
+h1,a,form{
+    color: white;
+    font-family: roboto;
+    text-overflow: ellipsis;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+p{
+    color: white;
+    font-family: roboto;
+    text-overflow: ellipsis;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+h2{
+    color: #98c1d9;
+    font-family: roboto;
+    text-decoration: underline;
+}
+
+.header{
+    position: center;
+    top: 0;
+    left: 0;
+    width: 90%;
+    padding: 20px;
+    display:flex;
+   justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    display: inline;
+    font-size: 18px;
+    color:white;
+    text-decoration: none;
+    margin-left: 35px;
+    transition: .4s;
+}
+
+.navbar,.footer a:hover {
+    color:#360e8c
+}
+
+img{
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+}
+
+footer,#ps{
+    padding: 25px;
+    text-align: center;
+    transition:.4s;
+}
+
+button{
+    background-color: #03acef6b;
+    border-radius: 10px/5px;
+    color: white;
+    font-size: 20px;
+    margin: 15px;
+    display:block;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover{
+    background: #071346;
+
+}
+
+#About,#Work,#Resume,#Contact{
+        background: #2a3156;
+        border-radius: px;
+        margin-left: 10px;
+        margin-right: 7px;
+        padding: 20px 3;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    padding-bottom: 15px;
+}
+
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    padding-top: 15px;
+}
+
+input,label{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    padding-top: 15px;
+    border-radius: 10px;
+}
+
+.span{
+    color: #98c1d9;
+}
